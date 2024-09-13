@@ -1,0 +1,52 @@
+/* KanbanCard.css */
+.kanban-card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 10px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.kanban-card-header {
+  display: flex;
+  align-items: center;
+}
+
+.kanban-card-header h3 {
+  margin-right: 10px;
+}
+
+.kanban-card-image {
+  width: 3px; /* Reduced size */
+  height: 3px; /* Reduced size */
+  object-fit: cover;
+}
+
+.kanban-card-body {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.kanban-card-details {
+  display: flex;
+  align-items: center;
+}
+
+.kanban-card-details h3 {
+  margin-right: 10px;
+}
+
+.kanban-card-tag-image {
+  width: 5px; /* Reduced size */
+  height: 5px; /* Reduced size */
+  margin-right: 5px;
+}
+
+.kanban-card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
